@@ -699,7 +699,7 @@ form {
 #theme-toggle .fa-sun,
 #theme-toggle .fa-moon {
     display: none;
-    font-size: 1.3em;
+    font-size: 1em;
     margin: 0 0.1em;
 }
 
@@ -833,7 +833,7 @@ body.dark .feedback {
 
 	form {
 		margin-left: 0;
-		width: 100%;
+		width: 85vw;
 		padding: 1.5em 1.25em;
 		border-radius: 2em;
 		gap: 0.6em;
