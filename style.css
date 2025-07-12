@@ -502,7 +502,7 @@ a {
 	display: grid;
 	grid-template-columns: 35% 65%;
 	margin: 1em 0 2.5em 0;
-	scroll-margin-top: 9em;
+	scroll-margin-top: 8.5em;
 }
 
 .projectInfo {
@@ -541,9 +541,9 @@ a {
 	z-index: 1;
 }
 
-.locaImage {
-	z-index: 1.5;
-}
+/* .locaImage {
+	z-index: ;
+} */
 
 .experience {
 	scroll-margin-top: 9em;
