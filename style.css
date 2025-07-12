@@ -541,9 +541,9 @@ a {
 	z-index: 1;
 }
 
-/* .locaImage {
-	z-index: ;
-} */
+.locaImage {
+	z-index: 1 ;
+}
 
 .experience {
 	scroll-margin-top: 9em;
