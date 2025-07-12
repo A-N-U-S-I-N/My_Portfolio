@@ -530,8 +530,8 @@ a {
 }
 
 .commonImage {
-	width: 90%;
-	height: 13em;
+	width: 80%;
+	height: auto;
 	border-radius: 1em;
 	box-shadow: 0.2em 0.2em 0.75em #c2c2c2;
 }
