@@ -10,10 +10,10 @@ export default async function handler(req, res) {
       const db = client.db();
       await db.collection("feedbacks").insertOne({ name, email, feedback, createdAt: new Date() });
       await client.close();
-      // Respond with 200 and no JSON
+      
       res.status(200).end();
     } catch (error) {
-      console.log("Database connection failed:", error); // Only log, no JSON
+      console.log("Database connection failed:", error); 
       res.status(500).end();
     }
   } else {
