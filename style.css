@@ -529,6 +529,10 @@ a {
 	gap: 2em;
 }
 
+.projectImages a:hover {
+	z-index:2;
+}
+
 .commonImage {
 	width: 80%;
 	height: auto;
@@ -538,7 +542,6 @@ a {
 
 .commonImage:hover {
 	transform: scale(1.05);
-	z-index: 2;
 }
 
 .experience {
