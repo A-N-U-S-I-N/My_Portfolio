@@ -1135,12 +1135,12 @@ body.dark .feedback {
 
     .commonImage {
         max-width: 18em; 
+	height: auto;
         border-radius: 0.75em;
         box-shadow: 0.1em 0.1em 0.5em #c2c2c2;
     }
 
     .locaImage {
-        height: auto;
         border: 0.4em solid white;
         z-index: 1;
     }
