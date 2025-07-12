@@ -1134,7 +1134,7 @@ body.dark .feedback {
     }
 
     .commonImage {
-        max-width: 20em; 
+        max-width: 21em; 
 	height: auto;
         border-radius: 0.75em;
         box-shadow: 0.1em 0.1em 0.5em #c2c2c2;
