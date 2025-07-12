@@ -538,6 +538,7 @@ a {
 
 .commonImage:hover {
 	transform: scale(1.05);
+	z-index: 1;
 }
 
 .locaImage {
