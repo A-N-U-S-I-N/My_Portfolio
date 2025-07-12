@@ -11,13 +11,11 @@ export default async function handler(req, res) {
       await db.collection("feedbacks").insertOne({ name, email, feedback, createdAt: new Date() });
       await client.close();
       
-      res.status(200).end();
+      res.sendFile(__dirname + '/index.html');
     } catch (error) {
       console.log("Database connection failed:", error); 
-      res.status(500).end();
     }
   } else {
     console.log("Method not allowed");
-    res.status(405).end();
   }
 }
