@@ -11,7 +11,7 @@ export default async function handler(req, res) {
       await db.collection("feedbacks").insertOne({ name, email, feedback, createdAt: new Date() });
       await client.close();
       
-      res.sendFile(__dirname + '/index.html');
+      res.sendFile(__dirname + 'index.html');
     } catch (error) {
       console.log("Database connection failed:", error); 
     }
