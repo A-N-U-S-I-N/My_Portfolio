@@ -442,17 +442,13 @@
 					</div>
 				</div>
 				<div>
-					<form action="#" method="post">
-						<input type="text" placeholder="Name" />
-						<input type="email" name="e-mail" placeholder="Email" />
-						<textarea
-							name="feedback"
-							placeholder="Feedback"
-							cols="30"
-							rows="5"
-						></textarea>
-						<button type="submit" class="send button">Send</button>
+					<form action="/api/feedback" method="post">
+  						<input type="text" name="name" placeholder="Name" />
+  						<input type="email" name="email" placeholder="Email" />
+  						<textarea name="feedback" placeholder="Feedback" cols="30" rows="5"></textarea>
+  						<button type="submit" class="send button">Send</button>
 					</form>
+
 				</div>
 				<div class="copyright-2">
 					<span>
